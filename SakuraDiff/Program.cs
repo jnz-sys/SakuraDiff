@@ -27,7 +27,6 @@ namespace SakuraDiff
 
             try
             {
-                
                 //変数宣言
                 string DiffProgram = "";    //diff.iniの「DiffProgram」用
                 int WaitTime = 0;   //diff.iniの「WaitTime」用
@@ -126,8 +125,6 @@ namespace SakuraDiff
                 //ExitWaitTimeで指定した分だけSleep(待ち)
                 debug_log += "ExitWaitTimeで指定した分だけSleep(待ち)" + "\r\n";
                 System.Threading.Thread.Sleep(ExitWaitTime);
-
-                //MessageBox.Show("owata");
 
             }
             catch(Exception e)
