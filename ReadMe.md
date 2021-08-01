@@ -7,7 +7,7 @@
 - .NET Framework 4.7.2 (C#)
 
 ## ダウンロード
-こちらからどうぞ
+ [こちらの「SakuraDiff_v1.x.zip」からどうぞ](https://github.com/jnz-sys/SakuraDiff/releases/ "SakuraDiff_Release")
 
 ## 使い方
 1. サクラエディタのインストールディレクトリ(sakura.exeと同じディレクトリ)に本プログラム(diff.exe)とdiff.iniを配置
