@@ -113,7 +113,7 @@ namespace SakuraDiff
 
                 //DiffProgramに比較対象ファイルとFixArgで指定した引数を渡しつつ起動
                 debug_log += "DiffProgramに比較対象ファイルとFixArgで指定した引数を渡しつつ起動" + "\r\n";
-                System.Diagnostics.Process p = System.Diagnostics.Process.Start(DiffProgram, "" + diff_file1 + " " + diff_file2 + " " + FixArg);
+                System.Diagnostics.Process p = System.Diagnostics.Process.Start(DiffProgram, "\"" + diff_file1 + "\" \"" + diff_file2 + "\" " + FixArg);
 
                 //WaitProcessが1の場合、ユーザー指定のDIFFソフトが終了するまで待つ
                 if (WaitProcess == 1)
