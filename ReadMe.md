@@ -1,13 +1,14 @@
 # サクラエディタDIFF機能連携プログラム
 ## 概要
-本プログラムは、サクラエディタのDIFF差分表示機能で任意のDIFFソフトウェアを使う為のプログラムです。
+本プログラムは、サクラエディタのDIFF差分表示機能で任意のDIFFソフトウェアを使う為のプログラムです。  
+ 一番ニーズがありそうな「WinMergeとの連携」はこちら→[サクラエディタとWinMergeを連携する - JumpNonZero](https://www.jnz-sys.net/sakuradiff "JumpNonZero")
 
 ## 言語・動作環境
 - Windows10
 - .NET Framework 4.7.2 (C#)
 
 ## ダウンロード
- [こちらの「SakuraDiff_v1.0.zip」からどうぞ](https://github.com/jnz-sys/SakuraDiff/releases/ "SakuraDiff_Release")
+ [こちらの「SakuraDiff_v1.1.zip」からどうぞ](https://github.com/jnz-sys/SakuraDiff/releases/ "SakuraDiff_Release")
 
 ## 使い方
 1. サクラエディタのインストールディレクトリ(sakura.exeと同じディレクトリ)に本プログラム(diff.exe)とdiff.iniを配置
@@ -45,3 +46,6 @@ diff.iniは、本プログラムが実行される際に都度読み込まれる
 - ソースコードからコンパイルする場合、恐らく出来上がるファイルは`SakuraDiff.exe`になるかと思いますので、`diff.exe`にリネームしてお使いください
 - 本プログラムはMITライセンスです
 - 紹介やリンク等はご自由にどうぞ
+
+## 製作者
+はねよし - [JumpNonZero](https://www.jnz-sys.net/ "JumpNonZero")
